@@ -1,0 +1,25 @@
+{
+  "name": "youpick",
+  "version": "1.0.0",
+  "description": "A random restaurant selector thing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "sass": "node-sass public/css/base.scss --output public/dist",
+    "sass:watch": "node-sass public/css/base.scss --output public/dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MikeFielden@github.com/JennaCrump/YouPick.git"
+  },
+  "author": "Jenna Crump",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JennaCrump/YouPick/issues"
+  },
+  "homepage": "https://github.com/JennaCrump/YouPick#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-sass": "^4.5.2"
+  }
+}

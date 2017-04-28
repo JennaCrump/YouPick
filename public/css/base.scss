@@ -1,0 +1,16 @@
+@import url('../css/bootstrap.min.css');
+
+@import './font-awesome/scss/font-awesome.scss';
+
+html, 
+body {
+    height: 100%;
+}
+
+#wrapper {
+    margin-top: 50px;
+    height: 100%;
+}
+
+// CSS GOES HERE
+// Go to command line and type `npm run sass` to compile this to see changes 
