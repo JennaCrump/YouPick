@@ -1,0 +1,13 @@
+@import url('../css/bootstrap.min.css');
+
+@import './font-awesome/scss/font-awesome.scss';
+
+html, 
+body {
+    height: 100%;
+}
+
+#wrapper {
+    margin-top: 50px;
+    height: 100%;
+}
