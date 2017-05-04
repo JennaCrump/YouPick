@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "sass": "node-sass public/css/base.scss --output public/dist",
-    "sass:watch": "node-sass public/css/base.scss --output public/dist -w"
+    "sass:watch": "node-sass public/css/base.scss --output public/dist -w",
+    "addPick:watch": "node-sass public/css/addPick.scss --output public/dist -w"
   },
   "repository": {
     "type": "git",
