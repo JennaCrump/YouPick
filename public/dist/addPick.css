@@ -1729,3 +1729,8 @@ select {
 button.btn {
   background: #222222;
   color: #9d9d9d; }
+
+fieldset.boolean_values > label {
+  user-select: none; }
+  fieldset.boolean_values > label:hover {
+    cursor: pointer; }
