@@ -11,3 +11,49 @@ body {
     margin-top: 50px;
     height: 100%;
 }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: rgb(244, 247, 248);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+    text-decoration: underline;
+}
+
+input[type="text"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: rgb(232, 238, 239);
+  color: rgb(138, 151, 160);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="checkbox"], 
+label.checkbox_label{
+//  height: auto;
+//  width: 100%;
+  margin-bottom: 15px;
+}
