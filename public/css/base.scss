@@ -4,10 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans|Source+Sans+Pro');
 
-html, 
-body {
-    height: 100%;
-}
 
 // CSS GOES HERE
 // Go to command line and type `npm run sass` to compile this to see changes 
@@ -22,11 +18,7 @@ html, body {
   background-color: $headerColor;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+
 
 header {
   border: 2px solid darken($headerColor, 10%);
@@ -66,6 +58,7 @@ header {
   text-align: center;
   
 a {
+    
     font-size: 2em;
     font-family: 'Source Sans Pro';
     font-weight: 200;
@@ -77,9 +70,14 @@ a {
     
     width: 100%;
     padding: 20px 0;
-    
+
     justify-content: center;
     align-items: baseline;
+    
+@media only screen  and (min-width : 1224px) {
+    padding: 40px 0;
+    font-size: 3em;
+    }
     
     &:hover i.fa {
       -webkit-animation: lightSpeedIn 1s;
@@ -95,3 +93,4 @@ a {
     }
   }
 }
+
